@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
             goats: goats
         };
 
-        fetch('https://script.google.com/macros/s/AKfycbw5D_93qVgqArILV4PmM-2kGF616QoAChgHp_1wAQWn/dev', {
+        fetch('https://script.google.com/macros/s/AKfycbx4VCL13c2UYI2auMucnUTO_hT6GJh2FlBDMD4CrnurVU1asK0MiSoDyriIBT30_6nhmg/exec', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
