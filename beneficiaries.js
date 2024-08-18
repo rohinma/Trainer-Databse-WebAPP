@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const trainerID = localStorage.getItem('trainerID');
     const beneficiaryDropdown = document.getElementById('beneficiaryDropdown');
 
-    fetch(`YOUR_DEPLOYED_APP_URL?trainerID=${trainerID}`)
+    fetch(`https://script.google.com/macros/s/AKfycbw5D_93qVgqArILV4PmM-2kGF616QoAChgHp_1wAQWn/dev?trainerID=${trainerID}`)
         .then(response => response.json())
         .then(data => {
             if (Array.isArray(data) && data.length > 0) {
