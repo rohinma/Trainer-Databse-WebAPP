@@ -28,3 +28,4 @@ document.addEventListener('DOMContentLoaded', function () {
         window.location.href = 'data-entry.html';
     });
 });
+ 
