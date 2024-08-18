@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Beneficiary</title>
+    <style>
+        #beneficiaryDropdown {
+            width: 300px; /* Adjust the width to make the dropdown wider */
+            padding: 5px;
+            font-size: 16px;
+        } 
+    </style>
+</head>
+<body>
+    <h1>Select Beneficiary</h1>
+    <form id="beneficiaryForm">
+        <label for="beneficiary">Beneficiary:</label>
+        <select id="beneficiaryDropdown" name="beneficiary" required>
+            <!-- Beneficiaries will be populated by JavaScript -->
+        </select>
+        <button type="submit">Proceed to Data Entry</button>
+    </form>
+
+    <!-- Link to the JavaScript file -->
+    <script src="beneficiaries.js"></script>
+</body>
+</html>
