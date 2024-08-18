@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const trainerID = localStorage.getItem('trainerID');
     const beneficiaryDropdown = document.getElementById('beneficiaryDropdown');
 
-    fetch(`https://script.google.com/macros/s/AKfycbw5D_93qVgqArILV4PmM-2kGF616QoAChgHp_1wAQWn/dev?trainerID=${trainerID}`)
+    fetch(`https://script.google.com/macros/s/AKfycbx4VCL13c2UYI2auMucnUTO_hT6GJh2FlBDMD4CrnurVU1asK0MiSoDyriIBT30_6nhmg/exec?trainerID=${trainerID}`)
         .then(response => response.json())
         .then(data => {
             if (Array.isArray(data) && data.length > 0) {
