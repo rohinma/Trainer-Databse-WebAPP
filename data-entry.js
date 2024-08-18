@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
             goats: goats
         };
 
-        fetch('YOUR_DEPLOYED_APP_URL', {
+        fetch('https://script.google.com/macros/s/AKfycbw5D_93qVgqArILV4PmM-2kGF616QoAChgHp_1wAQWn/dev', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
