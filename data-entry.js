@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const postData = {
             trainerID: trainerID,
-            beneficiaryName: selectedBeneficiary,
+            beneficiaryName: selectedBeneficiary, 
             age: age,
             children: children,
             goats: goats
